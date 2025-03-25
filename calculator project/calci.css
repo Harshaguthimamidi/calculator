@@ -1,5 +1,5 @@
 body{
-   background-color:  #d4d4d4;
+   background-color: #094b7e97;
 }
 
 
@@ -14,7 +14,7 @@ h1{
 .style{
     border: 2px solid black;
     width: 379px;
-    height: 585px;
+    height: 567px;
     border-radius: 17px;
     margin: 23px 500px;
     padding: 10px;
@@ -22,40 +22,19 @@ h1{
 }
 
 
+.display{
+    font-family:"Helvetica Neue",sans-serif;
+    user-select: none;
+    font-size:50px ;
+    padding: 35px;
+    border-radius: 30px;
+    margin: 8px 10px;
+    height: 25px;
+    background-color:#000000;
+    color:white;
+    text-align: end;
+}
 
-.display {
-    position: relative;
-    top: 16px;
-    width: 272px;
-    font-family: "Helvetica Neue", sans-serif;
-    user-select: none;  
-    font-size: 35px;
-    padding: 22px;
-    border-radius: 10px;
-    height: 50px;  
-    background-color: #000000;
-    color: white;
-    text-align: end; 
-    margin: 0 auto;
-    overflow-x: scroll; 
-    white-space: nowrap;  
-    scrollbar-width: none;  
-    border: 2px solid #d4d4d4;
-  }
-  
-  .display::-webkit-scrollbar {
-    display: none;
-  }
-  
-  .display:focus {
-    outline: none; 
-  }
-  
- 
-  .display {
-    scroll-behavior: smooth; 
-  }
-  
 
 .keys{
     border: 2px solid #000000;
@@ -66,8 +45,8 @@ h1{
     flex-wrap: wrap;
     gap: 10px;
     padding: 20px 20px 30px 20px;
-    height: 330px;
-   
+    height: 385px;
+    background-color: rgb(10, 10, 10);
 }
 
 #button{

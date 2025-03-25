@@ -6,9 +6,6 @@ for (let i = 0; i < btn.length; i++) {
 function onClicking() {
   let targetNumber = event.target.innerHTML;
 
-
-  
-
   if (targetNumber == "AC") {
     bag = "";
     document.querySelector(".display").innerHTML = bag;
@@ -24,6 +21,3 @@ function onClicking() {
     document.querySelector(".display").innerHTML = bag;
   }
 }
-
-
-
